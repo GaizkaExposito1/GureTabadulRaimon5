@@ -1,0 +1,56 @@
+/*------mobile first--------*/
+#registro{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color:#0077B6;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+#logo{
+    width:25%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 0px;
+}
+
+#enviar .btn{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+input {
+    border-top:none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.col-md-4{
+    margin-bottom: 2%;
+}
+
+/*------responsive----------*/
+@media(min-width: 600px) {
+
+    #logo{
+        width: 15%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    #enviar .btn{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+}
+

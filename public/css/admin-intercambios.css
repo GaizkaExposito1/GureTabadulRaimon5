@@ -1,0 +1,35 @@
+.titulo{
+  margin-top: 2%;
+}
+.selects{
+  margin-top: 4%;
+}
+
+.fila1{
+background-color: #EEE8F6;
+width: 40% !important;
+margin-left: 10%;
+padding-top: 4%;
+text-align: center;
+
+}
+.fila2{
+  border-left: 5px solid #B7E4C7;
+  padding-top: 4%;
+  background-color: #EEE8F6;
+  width: 40% !important;
+  text-align: center;
+
+}
+.fila1, .fila2{
+  height: 500px;
+  margin-bottom: 1%;
+}
+.imgAvatar{
+  border-radius: 90%;
+  background-color: aqua;
+  margin-bottom: 4%;
+}
+#oculto{
+  display: none;
+}

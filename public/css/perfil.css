@@ -1,0 +1,202 @@
+/* Perfil y botones de editar ,curso e intercambios */
+
+h1{
+font-family: 'Permanent Marker', cursive;
+color: #0077B6;
+text-align: center;
+margin-top: 6%;
+
+}
+.imgPerfil{
+    border-radius: 100%;
+    background-color: #CAEBD6;
+    display: block;
+    margin: auto;
+
+}
+.btn3,.letrash4{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+}
+.btn-UserP,.btnintecambios,.btncursos{
+    text-decoration: none;
+    text-align: center;
+    color: #0077B6;
+    background-color: transparent;
+    border: 2px solid #0077B6;
+    border-radius: 12px;
+    padding: 1%;
+    font-family: 'Nova Round', cursive;
+    cursor: pointer;
+}
+.btn-UserP:hover, .btnintecambios:hover, .btncursos:hover{
+    background-color: #CAEBD6;
+}
+.perfil p{
+    font-family: 'Nova Round', cursive;
+    text-align:center;
+}
+/*---------------informacion y las lista-------------------------*/
+
+.item{
+    font-family: 'Nova Round', cursive;
+    align-items: stretch;
+
+}
+.container-gusto{
+    font-family: 'Nova Round', cursive;
+
+}
+.container-gusto ul{
+    list-style: none;
+
+}
+.container-aprender{
+    font-family: 'Nova Round', cursive;
+
+}
+#mostrar_ocultar{
+    display: block;
+}
+/* Aqui estara el css de intercambio */
+#oculto{
+    display: none;
+}
+.volver{
+    text-decoration: none;
+    text-align: center;
+    color: #0077B6;
+    background-color: transparent;
+    border: 2px solid #0077B6;
+    border-radius: 12px;
+    font-family: 'Nova Round', cursive;
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 2%;
+}
+.volver:hover{
+    background-color: #CAEBD6;
+}
+.texto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-flow: wrap;
+}
+/* Ver cursos apuntados */
+#oculto2{
+    display: none;
+}
+.volver2{
+ text-decoration: none;
+    text-align: center;
+    color: #0077B6;
+    background-color: transparent;
+    border: 2px solid #0077B6;
+    border-radius: 12px;
+    font-family: 'Nova Round', cursive;
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 2%;
+}
+.volver2:hover{
+    background-color: #CAEBD6;
+}
+.cursos-apuntados{
+  margin: 0 auto;
+}
+td button{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+td button:hover{
+    background-color: #CAEBD6;
+}
+.btn-desapuntarse{
+    text-decoration: none;
+    text-align: center;
+    color: #0077B6;
+    background-color: transparent;
+    border: 1px solid #0077B6;
+    border-radius: 12px;
+    font-family: 'Nova Round', cursive;
+    cursor: pointer;
+}
+.btn-desapuntarse:hover{
+    background-color: #C1E7CF;
+}
+.lista{
+    list-style: none;
+}
+
+/* --------------------------------------------Editar Perfil-------------------------------------------------------------------*/
+
+#oculto3 {
+    display: none;
+ }
+.volver3{
+    text-decoration: none;
+    text-align: center;
+    color: #0077B6;
+    background-color: transparent;
+    border: 2px solid #0077B6;
+    border-radius: 12px;
+    font-family: 'Nova Round', cursive;
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 2%;
+}
+.volver3:hover{
+    background-color: #CAEBD6;
+}
+.btn1{
+    width: 115px;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    color: #0077B6;
+    background-color: transparent;
+    border: 2px solid #0077B6;
+    border-radius: 12px;
+    padding: 1%;
+    font-family: 'Nova Round', cursive;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-left: 50%;
+}
+.btn1:hover{
+    background-color: #C1E7CF;
+}
+h4{
+    text-align: center;
+    color: #0077B6;
+    font-family: 'Nova Round', cursive;
+}
+.input-info input{
+    border: none;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.input-actualizar{
+    color: #0077B6;
+    background-color: transparent;
+    border: 2px solid #0077B6;
+    border-radius: 12px;
+    font-family: 'Nova Round', cursive;
+    margin-top: 32%;
+    width: 115px;
+    height: 35px;
+}
+.input-actualizar:hover{
+    background-color: #C1E7CF;
+}
+

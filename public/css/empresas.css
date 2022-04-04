@@ -1,0 +1,92 @@
+/*---------mobile first-----------*/
+
+body{
+    background-image: linear-gradient(#B7E4C7 15%, white);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: #0077B6;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.box{
+    width: 50%;
+    margin-bottom: 13%;
+}
+
+#empresas{
+    margin-bottom: 5%;
+}
+
+#formulario{
+    width: 70%;
+    margin-left: 20%;
+}
+
+#promo{
+    font-family: 'Nova Round', cursive;
+    color: #0077B6;
+}
+
+.mb-3 input{
+    border-style: none;
+    width: 80%;
+}
+
+#btnSend{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    width: 123px;
+    height: 35px;
+    top: 787px;
+    display: inline;
+    margin-left: 0%;
+    border-radius: 12px;
+}
+.link{
+    text-decoration: none;
+}
+.promocionar-empresas{
+    text-align: center;
+    color: #0077B6;
+    background-color: transparent;
+    border: 2px solid #0077B6;
+    border-radius: 12px;
+    padding: 1%;
+    font-family: 'Nova Round', cursive;
+    cursor: pointer;
+
+}
+.promocionar-empresas:hover{
+    background-color: #B7E4C7;
+}
+
+
+
+/*--------responsive-----------*/
+@media(min-width: 600px) {
+
+    #formulario{
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    .mb-3 input{
+        border-style: none;
+        width: 59%;
+    }
+
+    #btnSend{
+        width: 127px;
+        height: 45px;
+        top: 787px;
+        display: inline;
+        margin-left: 0%;
+        border-radius: 12px;
+    }
+
+}

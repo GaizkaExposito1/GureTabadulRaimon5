@@ -1,0 +1,135 @@
+/*-----------mobile first----------*/
+#head{
+    margin-left: 5%;
+}
+
+#head h2{
+    font-family: 'Nova Round', cursive;
+    color: #0077B6;
+    width: 30%;
+}
+
+#conver{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.derecha{
+    margin-left: auto;
+    max-width: 60%!important;
+    word-wrap: break-word;
+    width: fit-content;
+    background-color: #202C33;
+    color: #ffff;
+    position: inherit;
+    text-align: right;
+    border-radius: 10px;
+    padding: 4%;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.izq{
+    background-color: #2e4859;
+    color: #ffff;
+    position: inherit;
+    text-align: left;
+    border-radius: 10px;
+    padding: 4%;
+    word-wrap: break-word;
+    width: fit-content;
+    max-width: 60%!important;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+#send-mess{
+    width: 100%;
+    padding-top: 2%;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    background-color: #BCE6CB;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 4%;
+}
+
+#send-mess ::placeholder{
+    padding: 4%;
+}
+
+form{
+    margin-left: 5%;
+}
+
+#texto{
+    border-color: #b33061;
+    border-radius: 15px;
+    height: 37px;
+    width: 220px;
+}
+
+#button{
+    background-color: transparent;
+    border-color: #0077B6;
+    border-width: 2px;
+    color: #0077B6;
+    font-weight: 600;
+    margin-left: 5%;
+    width: 150px;
+    height: 45px;
+    border-radius: 12px;
+}
+
+
+/*-----------responsive------------*/
+@media(min-width: 600px) {
+
+    #head h2{
+        margin-top: 5%;
+    }
+
+    #conver{
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+
+    .derecha{
+        padding: 2%;
+        margin-left: auto;
+        word-wrap: break-word;
+        width: fit-content;
+    }
+
+    .izq{
+        padding: 2%;
+        word-wrap: break-word;
+        width: fit-content;
+        max-width: 60%!important;
+    }
+
+    #send-mess{
+        width: 81%;
+        margin-left: 8%;
+    }
+
+    #send-mess ::placeholder{
+        padding: 2%;
+    }
+
+    form{
+        margin-left: 20%;
+        margin-bottom: 3%;
+    }
+
+    #texto{
+        height: 50px;
+        width: 320px;
+    }
+
+
+
+
+
+
+}

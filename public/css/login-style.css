@@ -1,0 +1,59 @@
+/*------mobile first--------*/
+h3{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color:#0077B6;
+    /* margin-top: 5%;
+    margin-bottom: 6%; */
+}
+
+#logo_login{
+    width:20%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 0px;
+}
+
+.card{
+    background-color:transparent;
+    border-style: none;
+}
+
+.card-header{
+    background-color:transparent;
+    border-style: none;
+}
+
+#entrar .btn{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    width: 35%;
+    margin-left: 30%;
+}
+
+
+
+/*------responsive----------*/
+
+@media(min-width: 600px) {
+
+    #logo_login{
+        width: 15%;
+        /* margin-top: 1%;
+        margin-bottom: 5%; */
+    }
+
+    #entrar .btn{
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 0px;
+        margin-right: 5%;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+
+}

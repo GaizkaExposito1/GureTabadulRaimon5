@@ -1,0 +1,27 @@
+.titulo{
+  margin-top: 2%;
+}
+.cuadrado{
+  margin-top: 2%;
+}
+.bg-pink{
+  background-color: #EEE8F6;
+  width: 30%;
+  margin-left: 35% !important;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.borde{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+a.Boton{
+  margin-left: 10px;
+  border:1px solid black;
+  padding: 5px;
+  color: black;
+  text-decoration: none !important;
+}
+.ttuloApartado{
+  margin-bottom: 4%;
+}

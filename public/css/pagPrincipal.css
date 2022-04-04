@@ -1,0 +1,20 @@
+video{
+    margin-left: 2%;
+    width: 96%;
+
+}
+#mostrar-home{
+    border: 2px solid #0077B6;
+    color: #0077B6;
+    cursor: pointer;
+    padding: 1%;
+    margin-right: 3%;
+    float: right;
+    text-decoration: none;
+}
+
+
+#mostrar-home:hover{
+    background-color:#B7E4C7;
+
+}

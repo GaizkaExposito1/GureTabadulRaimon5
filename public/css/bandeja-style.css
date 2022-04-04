@@ -1,0 +1,131 @@
+/*-----------mobile first----------*/
+#title-inbox{
+    color: #0077B6;
+    margin-left: 5%;
+}
+
+#title-inbox h1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#title-inbox h2{
+    font-family: 'Nova Round', cursive;
+    margin-left: 5%;
+}
+
+#select-user form{
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#select-user select{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    width: 93px;
+    height: 40px;
+    top: 787px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+#select-user button{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    margin-left: 2%;
+    width: 102px;
+    height: 41px;
+    top: 787px;
+    border-radius: 12px;
+    border-width: thin;
+}
+
+#chat-list{
+    margin-top: 5%;
+}
+
+#chat-list ul{
+    list-style: none;
+    margin-left: 3%;
+    width: 80%;
+}
+
+#line{
+    position: absolute;
+}
+
+li #imgPerfil{
+    width: 117%;
+    /* margin-bottom: 2%; */
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+#chat-list a{
+    text-decoration: none;
+    color: black;
+}
+
+#chat-list li{
+    width: 10%;
+    float: left;
+    display: flex;
+    margin-bottom: 0%;
+}
+
+#person-chat{
+    border-bottom: 2px solid #181818;
+    border-width: 100%;
+    margin-bottom: 5%;
+}
+
+#chat-list button{
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+    margin-left: 70%;
+    margin-bottom: 3%;
+}
+
+
+
+/*-----------responsive------------*/
+@media(min-width: 600px) {
+
+    #title-inbox{
+        margin-top: 2%;
+    }
+
+    #title-inbox h2{
+        margin-left: 2%;
+    }
+
+    #select-user form{
+        margin-top: 2%;
+        margin-left: 7%;
+    }
+
+    #chat-list ul{
+        width: 70%;
+    }
+
+    li #imgPerfil{
+        width: 93%;
+        flex-direction: column;
+        margin-top: -42px;
+    }
+
+    #chat-list button{
+        background-color: transparent;
+        border-color: transparent;
+        position: relative;
+        margin-left: 85%;
+        margin-bottom: 3%;
+    }
+
+}

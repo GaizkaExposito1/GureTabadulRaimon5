@@ -1,0 +1,24 @@
+#prox{
+  text-align: center;
+  margin-top: 15%;
+}
+.cargando{
+  width: 100px;
+  height: 100px;
+  margin-left: 45%;
+  border: 15px solid rgb(226, 221, 221);
+  border-top: 13px solid  rgb(58, 57, 57);
+  border-radius: 50%;
+  animation-name: carga;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes carga {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

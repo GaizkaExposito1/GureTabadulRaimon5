@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Models\Language;
 use Carbon\Carbon;
+use Auth;
 
 class WorkshopController extends Controller
 {

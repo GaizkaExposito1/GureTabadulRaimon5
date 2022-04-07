@@ -603,6 +603,7 @@ section.exclusive ul:not(.tns-slider) li:nth-child(n+5) {
 
 .woocommerce.single .woocommerce-variation-add-to-cart {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .woocommerce.single .quantity input {

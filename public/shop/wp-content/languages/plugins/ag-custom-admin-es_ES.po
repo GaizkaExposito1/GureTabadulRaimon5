@@ -1,0 +1,1105 @@
+# Translation of Plugins - Custom Dashboard &amp; Login Page &#8211; AGCA - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Custom Dashboard &amp; Login Page &#8211; AGCA - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-30 16:27:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Custom Dashboard &amp; Login Page &#8211; AGCA - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://cusmin.com/"
+msgstr "https://cusmin.com/"
+
+#. Author of the plugin
+msgid "Cusmin"
+msgstr "Cusmin"
+
+#: plugin.php:2864
+msgid "Save AGCA configuration"
+msgstr "Guardar la configuración de AGCA "
+
+#: plugin.php:2692
+msgid "Hide \"Collapse menu\" button"
+msgstr "Ocultar el botón «Cerrar el menú»"
+
+#: plugin.php:2685
+msgid "Hide sub-menu arrow"
+msgstr "Ocultar la flecha del submenú"
+
+#: plugin.php:2678
+msgid "Hide menu icons"
+msgstr "Ocultar los iconos del menú"
+
+#: plugin.php:2671
+msgid "Hide menu items separators"
+msgstr "Ocultar los separadores de los elementos del menú"
+
+#: plugin.php:2639
+msgid "a new tab"
+msgstr "una nueva pestaña"
+
+#: plugin.php:2638
+msgid "the same tab"
+msgstr "la misma pestaña"
+
+#: plugin.php:2598
+msgid "Hide?"
+msgstr "¿Ocultar?"
+
+#: plugin.php:2564
+msgid "Hide \"Lost password\" link"
+msgstr "Ocultar el enlace «Contraseña perdida»"
+
+#: plugin.php:2544
+msgid "Hide \"Register\" link"
+msgstr "Ocultar el enlace «Registrarse»"
+
+#: plugin.php:2505
+msgid "Hide login header image"
+msgstr "Ocultar la imagen de la cabecera del acceso"
+
+#: plugin.php:2478
+msgid "Hide \"Back to blog\" text"
+msgstr "Ocultar el texto «Volver al blog»"
+
+#: plugin.php:2455
+msgid "Hide secondary widget area"
+msgstr "Ocultar el área secundaria de widgets"
+
+#: plugin.php:2405
+msgid "These settings will override settings configured in the Screen options on Dashboard page."
+msgstr "Estos ajustes anularán los ajustes configurados en las opciones de pantalla de la página del escritorio."
+
+#: plugin.php:2356
+msgid "Hide version text"
+msgstr "Ocultar el texto de la versión"
+
+#: plugin.php:2341
+msgid "Hide footer text"
+msgstr "Ocultar el texto del pie de página"
+
+#: plugin.php:2332
+msgid "<strong>Hide footer</strong>"
+msgstr "<strong>Ocultar el pie de página</strong>"
+
+#: plugin.php:2301
+msgid "Hide \"Edit My Profile\" link"
+msgstr "Ocultar el enlace «Editar mi perfil»"
+
+#: plugin.php:2281
+msgid "Hide WordPress update notification"
+msgstr "Ocultar el aviso de actualización de WordPress"
+
+#: plugin.php:2198
+msgid "Remove update notifications"
+msgstr "Eliminar los avisos de actualización"
+
+#: plugin.php:2191
+msgid "Hide Site name"
+msgstr "Ocultar el nombre del sitio"
+
+#: plugin.php:2177
+msgid "Hide Admin bar logo"
+msgstr "Ocultar el logotipo de la barra de administración"
+
+#: plugin.php:2139
+msgid "Site pages: Hide Admin bar"
+msgstr "Páginas del sitio: Ocultar la barra de administración"
+
+#: plugin.php:2132
+msgid "Site pages: Do not apply Admin bar customizations"
+msgstr "Páginas del sitio: No aplicar personalizaciones a la barra de administración"
+
+#: plugin.php:2024
+msgid "default:&nbsp;<strong>Edit Dashboard</strong>"
+msgstr "por defecto:&nbsp;<strong>Editar el escritorio</strong>"
+
+#: plugin.php:2065
+msgid "Hide User's Profile Color Scheme"
+msgstr "Ocultar el esquema de color del perfil del usuario"
+
+#: plugin.php:1979
+msgid "Enjoying AGCA? Help us further develop it and support it!"
+msgstr "¿Estás disfrutando AGCA? ¡Ayúdanos a seguir desarrollándolo y a dar soporte!"
+
+#: plugin.php:1135
+msgid "AGCA plugin caught an error on your site!"
+msgstr "¡El plugin AGCA ha detectado un error en tu sitio!"
+
+#: plugin.php:324
+msgid "AGCA -> Advanced -> Custom JavaScript"
+msgstr "AGCA -> Avanzado -> JavaScript personalizado"
+
+#: plugin.php:2377
+msgid "Dashboard Options"
+msgstr "Opciones del escritorio"
+
+#: plugin.php:2372
+msgid "Dashboard Settings"
+msgstr "Ajustes del escritorio"
+
+#: plugin.php:2062
+msgid "Hides colors scheme on profile page"
+msgstr "Oculta el esquema de colores en la página de perfil"
+
+#: plugin.php:2618
+msgid "Front end: Remove Customize button"
+msgstr "Portada: Eliminar el botón «Personalizar»"
+
+#: plugin.php:2615
+msgid "Removes Customize button on front end for authenticated users."
+msgstr "Elimina el botón «Personalizar» en la portada para los usuarios identificados."
+
+#: plugin.php:2184
+msgid "Hide Admin bar logo context menu"
+msgstr "Ocultar el menú contextual del logotipo de la barra de administración"
+
+#: plugin.php:2182
+msgid "Hides WordPress context menu on admin bar logo from admin bar"
+msgstr "Oculta el menú contextual de WordPress en el logotipo de la barra de administración para la barra de administración"
+
+#: plugin.php:2175
+msgid "Hides small Wordpress logo or custom logo from the admin bar"
+msgstr "Oculta el pequeño logotipo de WordPress o el logotipo personalizado de la barra de administración"
+
+#: plugin.php:2090
+msgid "&nbsp;- unlock the ultimate branding experience"
+msgstr "& nbsp;- desbloquea la mejor experiencia de marca"
+
+#: plugin.php:1429 plugin.php:1972
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: plugin.php:1428 plugin.php:1971
+msgid "Footer"
+msgstr "Pie de página"
+
+#: plugin.php:2090
+msgid "Upgrade to Cusmin"
+msgstr "Actualizar a Cusmin "
+
+#: plugin.php:250
+msgid "Not allowed. This action is allowed exclusively in admin panel"
+msgstr "No permitido. Esta acción está permitida exclusivamente en el panel de administración"
+
+#: plugin.php:3008
+msgid "Pick color"
+msgstr "Elegir color"
+
+#: plugin.php:3006
+msgid "Submenu button background color:"
+msgstr "Color de fondo del botón de submenú:"
+
+#: plugin.php:2986
+msgid "Pick Color"
+msgstr "Elegir color"
+
+#: plugin.php:2943 plugin.php:2987 plugin.php:3009
+msgid "Clear"
+msgstr "Limpiar"
+
+#: plugin.php:2908
+msgid "Toggle on/off"
+msgstr "Alternar activado/desactivado"
+
+#: plugin.php:2864
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: plugin.php:2842
+msgid "Import Settings"
+msgstr "Ajustes de importación"
+
+#: plugin.php:2838
+msgid "Export Settings"
+msgstr "Ajustes de exportación"
+
+#: plugin.php:2835
+msgid "Export / import settings"
+msgstr "Ajustes de exportar/importar"
+
+#: plugin.php:2830
+msgid "Temporary disable POST verification"
+msgstr "Desactivar temporalmente la verificación de POST"
+
+#: plugin.php:2828
+msgid "Temporary enable this option if you are experiencing any problems with saving AGCA options. Please turn it off after you are done with your customizations."
+msgstr "Activa temporalmente esta opción si experimentas problemas al guardar las opciones de AGCA. Por favor, desactívalo después de que hayas terminado tus personalizaciones."
+
+#: plugin.php:2802
+msgid "Custom JavaScript"
+msgstr "JavaScript personalizado"
+
+#: plugin.php:2802 plugin.php:2809
+msgid "Add additional custom JavaScript"
+msgstr "Añadir JavaScript personalizado adicional"
+
+#: plugin.php:2785
+msgid "Custom CSS script"
+msgstr "Script CSS personalizado"
+
+#: plugin.php:2785 plugin.php:2792
+msgid "Add custom CSS script to override existing styles"
+msgstr "Añade un script CSS personalizado para omitir los estilos existentes"
+
+#: plugin.php:2780
+msgid "<strong>Note: </strong>These options will override existing customizations"
+msgstr "<strong>Nota: </strong> Estas opciones omitirán las personalizaciones existentes"
+
+#: plugin.php:2766
+msgid "Change widget background color"
+msgstr "Cambiar el color de fondo del widget"
+
+#: plugin.php:2765
+msgid "Change color in header text"
+msgstr "Cambiar el color del texto de cabecera"
+
+#: plugin.php:2765
+msgid "Title bar background:"
+msgstr "Fondo de la barra de título:"
+
+#: plugin.php:2763
+msgid "Widgets Color Options"
+msgstr "Opciones de color de los widgets"
+
+#: plugin.php:2761
+msgid "Change color in footer text"
+msgstr "Cambiar el color en el texto del pie de página"
+
+#: plugin.php:2761
+msgid "Footer text:"
+msgstr "Texto del pie de página:"
+
+#: plugin.php:2760
+msgid "Change color of admin bar text"
+msgstr "Cambiar el color del texto de la barra de administración"
+
+#: plugin.php:2760
+msgid "Admin bar text:"
+msgstr "Texto de la barra de administración:"
+
+#: plugin.php:2759
+msgid "Change color in content text"
+msgstr "Cambiar el color del texto en el contenido"
+
+#: plugin.php:2759
+msgid "Content text:"
+msgstr "Texto del contenido:"
+
+#: plugin.php:2757
+msgid "Font Color Options"
+msgstr "Opciones de color de fuentes"
+
+#: plugin.php:2755
+msgid "Change background color of element behind admin menu"
+msgstr "Cambiar el color de fondo del elemento tras el menú de administración"
+
+#: plugin.php:2755
+msgid "Wrapper background:"
+msgstr "Fondo de la envoltura:"
+
+#: plugin.php:2754
+msgid "Sub-menu text color"
+msgstr "Color del texto del submenú"
+
+#: plugin.php:2754
+msgid "Sub-menu text:"
+msgstr "Texto del submenú:"
+
+#: plugin.php:2753
+msgid "Change submenu item background color on mouseover"
+msgstr "Cambiar el color de fondo del elemento de submenú al pasar el cursor"
+
+#: plugin.php:2753
+msgid "Sub-menu hover button background:"
+msgstr "Fondo del botón de submenú al pasar el cursor:"
+
+#: plugin.php:2752 plugin.php:3006
+msgid "Change submenu item background color"
+msgstr "Cambiar el color de fondo del elemento de submenú"
+
+#: plugin.php:2752
+msgid "Sub-menu button background:"
+msgstr "Fondo del botón del submenú:"
+
+#: plugin.php:2751
+msgid "Change button background color on mouseover"
+msgstr "Cambiar el color de fondo del botón al pasar el cursor"
+
+#: plugin.php:2751
+msgid "Hover button background:"
+msgstr "Fondo del botón al pasar el cursor:"
+
+#: plugin.php:2750
+msgid "Change button background color for current button"
+msgstr "Cambiar el color de fondo del botón del botón actual"
+
+#: plugin.php:2750
+msgid "Selected button background:"
+msgstr "Fondo del botón seleccionado:"
+
+#: plugin.php:2749
+msgid "Change button text color"
+msgstr "Cambiar el color del texto del botón"
+
+#: plugin.php:2749
+msgid "Button text:"
+msgstr "Texto del botón:"
+
+#: plugin.php:2748
+msgid "Change button background color"
+msgstr "Cambiar el color de fondo del botón"
+
+#: plugin.php:2748
+msgid "Button background:"
+msgstr "Fondo del botón:"
+
+#: plugin.php:2746
+msgid "Admin Menu Color Options"
+msgstr "Opciones de colores del menú de administración"
+
+#: plugin.php:2744
+msgid "Change admin bar (on top) color in admin panel"
+msgstr "Cambiar el color de la barra de administración (en la parte superior) en el panel de administración"
+
+#: plugin.php:2744
+msgid "Admin bar:"
+msgstr "Barra de administración:"
+
+#: plugin.php:2743
+msgid "Change login page background color"
+msgstr "Cambiar el color de fondo de la página de acceso"
+
+#: plugin.php:2743
+msgid "Login page background:"
+msgstr "Fondo de la página de acceso:"
+
+#: plugin.php:2742
+msgid "Change admin page background color"
+msgstr "Cambiar el color de fondo de la página de administración"
+
+#: plugin.php:2742 plugin.php:2766
+msgid "Background:"
+msgstr "Fondo:"
+
+#: plugin.php:2740
+msgid "Global Color Options"
+msgstr "Opciones de color globales"
+
+#: plugin.php:2736
+msgid "Apply Colorizer customizations"
+msgstr "Aplicar personalizaciones del colorizador"
+
+#: plugin.php:2732
+msgid "Colorizer Page"
+msgstr "Página del colorizador"
+
+#: plugin.php:2726
+msgid "Branding image URL"
+msgstr "URL de imagen de marca"
+
+#: plugin.php:2725
+msgid "Branding logo link"
+msgstr "Enlace a logo de la marca"
+
+#: plugin.php:2723
+msgid "for blog URL"
+msgstr "para la URL del blog"
+
+#: plugin.php:2723
+msgid "Change branding logo link</br></br>Use:"
+msgstr "Cambiar el enlace del logo de marca</br></br>Usar:"
+
+#: plugin.php:2718
+msgid "Admin menu branding logo"
+msgstr "Logo de marca del menú de administración"
+
+#: plugin.php:2716
+msgid "Adds custom logo above the admin menu"
+msgstr "Añade un logo personalizado encima del menú de administración"
+
+#: plugin.php:2710
+msgid "Round sub-menu pop-up box - size"
+msgstr "Caja emergente redondeada del submenú - tamaño"
+
+#: plugin.php:2698
+msgid "Round sub-menu pop-up box"
+msgstr "Caja emergente redondeada del submenú"
+
+#: plugin.php:2696
+msgid "Rounds submenu pop-up box"
+msgstr "Cajas emergentes redondeadas del submenú - tamaño"
+
+#: plugin.php:2690
+msgid "Removes collapse button at the end of admin menu"
+msgstr "Elimina el botón de cerrar al final del menú de administración"
+
+#: plugin.php:2683
+msgid "Removes small arrow that appears on the top button hover"
+msgstr "Elimina la pequeña flecha que aparece en la parte superior del botón al pasar el cursor"
+
+#: plugin.php:2676
+msgid "Removes icons from dmin menu buttons"
+msgstr "Elimina los iconos de los botones del menú de administración"
+
+#: plugin.php:2669
+msgid "Removes empty space between some top menu items"
+msgstr "Elimina el espacio vacío entre algunos de los elementos superiores del menú"
+
+#: plugin.php:2661
+msgid "Disable admin menu auto-folding"
+msgstr "Desactiva el plegado automático del menú de administración"
+
+#: plugin.php:2660
+msgid "Force admin menu auto-folding"
+msgstr "Fuerza el plegado automático del menú de administración"
+
+#: plugin.php:2659
+msgid "Default"
+msgstr "Por defecto"
+
+#: plugin.php:2655
+msgid "Admin menu auto folding"
+msgstr "Plegado automático del menú de administración"
+
+#: plugin.php:2655
+msgid "Choose how admin menu should behave on mobile devices / small screens"
+msgstr "Elige cómo debería comportarse el menú de administración en dispositivos móviles/pantallas pequeñas "
+
+#: plugin.php:2641
+msgid "Add new item"
+msgstr "Añadir un nuevo elemento"
+
+#: plugin.php:2641
+msgid "Add new item button\" name=\"ag_add_adminmenu_button"
+msgstr "Botón para añadir nuevo elemento\" name=\"ag_add_adminmenu_button"
+
+#: plugin.php:2637
+msgid "open in"
+msgstr "abrir en"
+
+#: plugin.php:2636
+msgid "New button link"
+msgstr "Enlace del botón de nuevo"
+
+#: plugin.php:2636
+msgid "url"
+msgstr "URL"
+
+#: plugin.php:2635
+msgid "New button visible name"
+msgstr "Nombre visible del botón de nuevo"
+
+#: plugin.php:2635
+msgid "name"
+msgstr "nombre"
+
+#: plugin.php:2628
+msgid "Add New Menu Items"
+msgstr "Elementos del menú de añadir nuevo"
+
+#: plugin.php:2612
+msgid "Remove Profile button from the user menu"
+msgstr "Eliminar el botón del perfil del menú del usuario"
+
+#: plugin.php:2609
+msgid "Removes Profile menu item for non-admin users."
+msgstr "Elimina el elemento del menú del perfil para los usuarios que no son administradores."
+
+#: plugin.php:2598
+msgid "Change Text"
+msgstr "Cambiar texto"
+
+#: plugin.php:2598
+msgid "Item"
+msgstr "Elemento"
+
+#: plugin.php:2595
+msgid "click on the top menu item to show its sub-menus"
+msgstr "haz clic en el elemento del menú superior para mostrar sus submenús"
+
+#: plugin.php:2594
+msgid "Reset to default settings"
+msgstr "Restablecer a los ajustes por defecto"
+
+#: plugin.php:2594
+msgid "Reset menu settings to default values"
+msgstr "Restablecer los ajustes del menú a sus valores por defecto"
+
+#: plugin.php:2590
+msgid "Edit / Remove Menu Items"
+msgstr "Editar/eliminar elementos del menú"
+
+#: plugin.php:2583
+msgid "Hides admin menu completely (administrator can see 'AGCA' button)"
+msgstr "Oculta completamente el menú de administración (el administrador puede ver el botón de 'AGCA')"
+
+#: plugin.php:2582
+msgid "Apply admin menu customizations"
+msgstr "Aplicar las personalizaciones del menú de administración"
+
+#: plugin.php:2578 plugin.php:2651
+msgid "Admin Menu Settings"
+msgstr "Ajustes del menú de administración"
+
+#: plugin.php:2562
+msgid "Hides lost password link on login page"
+msgstr "Oculta el enlace a contraseña olvidada en la página de acceso"
+
+#: plugin.php:2557
+msgid "Link to a new registration page"
+msgstr "Enlace a una nueva página de registro"
+
+#: plugin.php:2556
+msgid "Change register link"
+msgstr "Cambiar enlace de registro"
+
+#: plugin.php:2554
+msgid "Change register link on login page to point to your custom registration page."
+msgstr "Cambia el enlace de registro en la página de acceso para que apunte a una página de registro personalizada."
+
+#: plugin.php:2542
+msgid "Hides register link on login page"
+msgstr "Oculta el enlace de registro en la página de acceso"
+
+#: plugin.php:2525 plugin.php:2712
+msgid "(Size in px)"
+msgstr "(Tamaño en px)"
+
+#: plugin.php:2523
+msgid "Round box corners - size"
+msgstr "Esquinas redondeadas de la caja - tamaño"
+
+#: plugin.php:2521 plugin.php:2708
+msgid "Size of rounded box curve"
+msgstr "Tamaño de la curva de la caja redondeada"
+
+#: plugin.php:2509
+msgid "Rounds box on login page"
+msgstr "Caja redondeada en la página de acceso"
+
+#: plugin.php:2503
+msgid "Hides login image completely"
+msgstr "Oculta completamente la imagen del acceso"
+
+#: plugin.php:2498
+msgid "For blog URL use"
+msgstr "Para usar en la URL del blog"
+
+#: plugin.php:2497
+msgid "Change link on login image"
+msgstr "Cambiar enlace de la imagen en el acceso"
+
+#: plugin.php:2495
+msgid "Put here custom link to a web location, that will be triggered on image click"
+msgstr "Pon aquí un enlace personalizado a una ubicación web, que se lanzará al hacer clic en la imagen"
+
+#: plugin.php:2490
+msgid "Change Login header image"
+msgstr "Cambiar imagen de cabecera del acceso"
+
+#: plugin.php:2488
+msgid "If this field is not empty, image from provided url will be visible on Login page"
+msgstr "Si no está vacío este campo la imagen de la url facilitada será visible en la página de acceso"
+
+#: plugin.php:2484
+msgid "Change back to blog text"
+msgstr "Cambiar texto de volver al blog"
+
+#: plugin.php:2483
+msgid "Changes '<- Back to ...' text in top bar on Login page"
+msgstr "Cambia el texto de '<- Volver a ...' de la barra superior de la página de acceso"
+
+#: plugin.php:2477
+msgid "Hide back to blog block"
+msgstr "Ocultar el bloque de volver al blog"
+
+#: plugin.php:2472
+msgid "Login Page Options"
+msgstr "Opciones de la página de acceso"
+
+#: plugin.php:2467
+msgid "Login Page Settings"
+msgstr "Ajustes de la página de acceso"
+
+#: plugin.php:2454
+msgid "This is <b>Other WordPress News</b> widget by default"
+msgstr "Este es el widget de «<b>Otras noticias sobre WordPress</b>» por defecto"
+
+#: plugin.php:2447
+msgid "This is <b>WordPress News</b> or <b>WordPress Development Blog</b> widget in older WordPress versions"
+msgstr "Este es el widget de «<b>Noticias sobre WordPress</b>» o «<b>Blog de desarrollo de WordPress</b>» en versiones antiguas de WordPress"
+
+#: plugin.php:2439
+msgid "Hides <b>At a Glance</b> dashboard widget"
+msgstr "Oculta el widget del escritorio «<b>De un vistazo</b>»"
+
+#: plugin.php:2432
+msgid "Hides <b>Quick Draft</b> dashboard widget"
+msgstr "Oculta el widget del escritorio «<b>Borrador rápido</b>»"
+
+#: plugin.php:2405
+msgid "Note"
+msgstr "Nota"
+
+#: plugin.php:2400
+msgid "Dashboard Widgets Options"
+msgstr "Opciones de widgets del escritorio"
+
+#: plugin.php:2390
+msgid "Add custom Dashboard content<br> <em>(&nbsp;text or HTML content&nbsp;)"
+msgstr "Añadir contenido personalizado al escritorio<br> <em>(contenido en texto o HTML)"
+
+#: plugin.php:2389
+msgid "Adds custom text (or HTML) between heading and widgets area on Dashboard page"
+msgstr "Añade texto (o HTML) personalizado entre el área de widgets y el encabezado en la página del escritorio"
+
+#: plugin.php:2383
+msgid "Change Dashboard heading text"
+msgstr "Cambiar el texto de encabezado del escritorio"
+
+#: plugin.php:2380
+msgid "Main heading ('Dashboard') on Dashboard page"
+msgstr "Encabezado principal ('Escritorio') en la página del escritorio"
+
+#: plugin.php:2364
+msgid "Change version text"
+msgstr "Cambiar texto de la versión"
+
+#: plugin.php:2360
+msgid "Replaces text 'Get Version ...' with custom text"
+msgstr "Reemplaza el texto 'Obtener la versión…' con un texto personalizado"
+
+#: plugin.php:2354
+msgid "Hides text 'Get Version ...' on right"
+msgstr "Oculta el texto 'Obtener la versión…' de la derecha"
+
+#: plugin.php:2349
+msgid "Change footer text"
+msgstr "Cambiar texto del pie de página"
+
+#: plugin.php:2345
+msgid "Replaces text 'Thank you for creating with WordPress' with custom text"
+msgstr "Reemplaza el texto 'Gracias por crear con WordPress' por un texto personalizado"
+
+#: plugin.php:2339
+msgid "Hides default text in footer"
+msgstr "Oculta el texto por defecto del pie de página"
+
+#: plugin.php:2335
+msgid "Footer Options"
+msgstr "Opciones del pie de página"
+
+#: plugin.php:2330
+msgid "Hides footer with all elements"
+msgstr "Oculta el pie de página y todos sus elementos"
+
+#: plugin.php:2321
+msgid "Admin Footer Settings"
+msgstr "Ajustes del pie de página de la administración"
+
+#: plugin.php:2307
+msgid "Log out only"
+msgstr "Solo salir"
+
+#: plugin.php:2305
+msgid "If selected, hides all elements in top right corner, except Log Out button"
+msgstr "Si se selecciona oculta todos los elementos de la esquina derecha superior, excepto el botón de salir"
+
+#: plugin.php:2295
+msgid "Change Log out text"
+msgstr "Cambiar texto de salir"
+
+#: plugin.php:2293
+msgid "Put 'Exit', for example"
+msgstr "Pon 'Salida', por ejemplo"
+
+#: plugin.php:2289
+msgid "Change Howdy text"
+msgstr "Cambiar texto de 'Hola'"
+
+#: plugin.php:2284
+msgid "Right Side"
+msgstr "Lado derecho"
+
+#: plugin.php:2279
+msgid "Hides the yellow bar with the information about the new WordPress release"
+msgstr "Oculta la barra amarilla con la información sobre la nueva versión de WordPress"
+
+#: plugin.php:2273
+msgid "Custom blog heading"
+msgstr "Encabezado personalizado del blog"
+
+#: plugin.php:2271
+msgid "Adds custom text in admin top bar."
+msgstr "Añade texto personalizado en la barra superior de administración."
+
+#: plugin.php:2213
+msgid "Hides <b>+ New</b> block and its context menu from admin bar"
+msgstr "Oculta el bloque «<b>+ Nuevo</b>» y su menú contextual de la barra de administración"
+
+#: plugin.php:2203
+msgid "Hides comments block from admin bar"
+msgstr "Oculta el bloque de comentarios de la barra de administración"
+
+#: plugin.php:2196
+msgid "Hides update notifications from admin bar"
+msgstr "Oculta los avisos de actualizaciones de la barra de administración"
+
+#: plugin.php:2189
+msgid "Hides site name link from the admin bar"
+msgstr "Oculta el enlace del nombre del sitio de la barra de administración"
+
+#: plugin.php:2148 plugin.php:2169 plugin.php:2491 plugin.php:2719
+msgid "Image URL"
+msgstr "URL de la imagen"
+
+#: plugin.php:2168
+msgid "Header image"
+msgstr "Imagen de la cabecera"
+
+#: plugin.php:2166
+msgid "Add custom image on the top of the admin content."
+msgstr "Añade una imagen personalizada en la parte superior del contenido de administración."
+
+#: plugin.php:2162
+msgid "in your title template."
+msgstr "en la plantilla de tu título."
+
+#: plugin.php:2162
+msgid "and"
+msgstr "y"
+
+#: plugin.php:2162
+msgid "Please use"
+msgstr "Por favor, utiliza"
+
+#: plugin.php:2161
+msgid "Page title template"
+msgstr "Plantilla de título de página"
+
+#: plugin.php:2159
+msgid "will be"
+msgstr "serán"
+
+#: plugin.php:2159
+msgid "Customize WordPress title using custom title template.</br></br>Examples"
+msgstr "Personaliza el título de WordPress usando la plantilla de título personalizado.</br></br>Ejemplos "
+
+#: plugin.php:2155
+msgid "Link"
+msgstr "Enlace"
+
+#: plugin.php:2154
+msgid "Admin bar logo link"
+msgstr "Enlace del logotipo de la barra de administración"
+
+#: plugin.php:2152
+msgid "to switch betweent admin and site area"
+msgstr "para cambiar entre la administración y el sitio"
+
+#: plugin.php:2152
+msgid "for blog URL."
+msgstr "para la URL del blog."
+
+#: plugin.php:2152
+msgid "Custom link on admin bar logo."
+msgstr "Enlace personalizado en el logotipo de la barra de administración."
+
+#: plugin.php:2147
+msgid "Admin bar logo"
+msgstr "Logotipo de la barra de administración"
+
+#: plugin.php:2145
+msgid "Change default WordPress logo with custom image."
+msgstr "Cambiar el logotipo de WordPress por defecto por una imagen personalizada."
+
+#: plugin.php:2142
+msgid "Left Side"
+msgstr "Lado Izquierdo"
+
+#: plugin.php:2136
+msgid "Hides admin bar completely for authenticated users on site pages."
+msgstr "Oculta completamente la barra de administración en las páginas del sitio a los usuarios conectados."
+
+#: plugin.php:2129
+msgid "Removes admin bar customizations for authenticated users on site pages.</br>This option can be useful if you want to remove AGCA scripts (styles, JavaScript) on your website for any reason."
+msgstr "Elimina las personalizaciones de la barra de administración en las páginas del sitio a los usuarios conectados.</br>Esta opción puede ser útil si quieres eliminar los scripts de AGCA (estilos, JavaScript) de tu web por algún motivo. "
+
+#: plugin.php:2125
+msgid "<strong>(but show Log Out button)</strong>"
+msgstr "<strong>(pero mostrar el botón de salir)</strong>"
+
+#: plugin.php:2122
+msgid "Check this if you want to show Log Out button in top right corner of the admin page"
+msgstr "Marca esto si quieres mostrar el botón de salir en la esquina superior derecha de la página de administración"
+
+#: plugin.php:2111
+msgid "<strong>Hide Admin bar</strong>"
+msgstr "<strong>Ocultar barra de administración</strong>"
+
+#: plugin.php:2109
+msgid "Hides the admin bar completely from the admin panel"
+msgstr "Oculta completamente la barra de administración del panel de administración"
+
+#: plugin.php:2099
+msgid "Admin Bar Settings"
+msgstr "Ajustes de la barra de administración"
+
+#: plugin.php:2082
+msgid "add your review and rate us on WordPress.org"
+msgstr "añade tu reseña y valóranos en WordPress.org"
+
+#: plugin.php:2082
+msgid "Add your review on WordPress.org"
+msgstr "Añade tu reseña en WordPress.org"
+
+#: plugin.php:2079
+msgid "If plugin does not work as expected"
+msgstr "Si el plugin no funciona como esperabas"
+
+#: plugin.php:2079
+msgid "Report an issue"
+msgstr "Informar de un problema"
+
+#: plugin.php:2068
+msgid "Feedback and Support"
+msgstr "Respuestas y soporte"
+
+#: plugin.php:2025
+msgid "WordPress capabilities"
+msgstr "Capacidades de WordPress"
+
+#: plugin.php:2025
+msgid "Find more information about"
+msgstr "Encuentra más información sobre"
+
+#: plugin.php:2051 plugin.php:2058
+msgid "Hides the menu from the admin pages (located on the top right corner of the page, below the admin bar)"
+msgstr "Oculta el menú de las páginas de administración (situado en la esquina superior derecha de la página, debajo de la barra de administración)"
+
+#: plugin.php:2045
+msgid "Pages"
+msgstr "Páginas"
+
+#: plugin.php:2013
+msgid "<h3>Applying customizations</h3><br><strong>Checked</strong> - apply to all users, except AGCA safe users<br><strong>Not checked</strong> - apply to everyone</br></br><strong>Q</strong>: Who are AGCA safe users?</br><strong>A</strong>: Go to <i>General -> AGCA Safe Users -> AGCA safe users capability</i> and change capability option to define AGCA safe users. Only the users with selected capability will be AGCA safe users.</br>"
+msgstr "<h3>Aplicar personalizaciones</h3><br><strong>Marcado</strong> - Se aplica a todos los usuarios AGCa seguros<br><strong>Sin marcar</strong> - Se aplica a todos</br></br><strong>P</strong>: ¿Qué son los usuarios AGCA seguros?</br><strong>R</strong>: Ve a <i>General -> Usuarios AGCA seguros -> Capacidades de los usuarios AGCA seguros</i> y cambia la opción de capacidad para definir a los usuarios AGCA seguros. Solo los usuarios con la capacidad seleccionada serán los usuarios AGCA seguros.</br>"
+
+#: plugin.php:2012
+msgid "Exclude the AGCA safe users from the customizations"
+msgstr "Excluir a los usuarios AGCA seguros de las personalizaciones"
+
+#: plugin.php:2006
+msgid "<strong>Tip: </strong>Move the cursor over an option label to see the more information about the option"
+msgstr "<strong>Truco: </strong>Mueve el cursor sobre la etiqueta de una opción para ver más información sobre la opción"
+
+#: plugin.php:2002
+msgid "plugin to manage these settings."
+msgstr "plugin para gestionar estos ajustes."
+
+#: plugin.php:1976
+msgid "My custom scripts"
+msgstr "Mis scripts personalizados"
+
+#: plugin.php:1975
+msgid "Colorizer settings"
+msgstr "Ajustes del coloreador"
+
+#: plugin.php:1974
+msgid "Settings for main admin menu"
+msgstr "Ajustes del menú de administración principal"
+
+#: plugin.php:1973
+msgid "Settings for Login page"
+msgstr "Ajustes para la página de acceso"
+
+#: plugin.php:1972
+msgid "Settings for Dashboard page"
+msgstr "Ajustes para la página del escritorio"
+
+#: plugin.php:1971
+msgid "Settings for admin footer"
+msgstr "Ajustes para el pie de página de administración"
+
+#: plugin.php:1970
+msgid "Settings for admin bar"
+msgstr "Ajustes para la barra de administración"
+
+#: plugin.php:1969 plugin.php:2004
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: plugin.php:1963
+msgid "NEGATIVE FEEDBACK: I don't like this plugin."
+msgstr "COMENTARIO NEGATIVO: No me gusta este plugin."
+
+#: plugin.php:1960
+msgid "POSITIVE FEEDBACK: I like this plugin!"
+msgstr "COMENTARIO POSITIVO: ¡Me gusta este plugin!"
+
+#: plugin.php:1443
+msgid "Save changes"
+msgstr "Guardar los cambios"
+
+#: plugin.php:1442
+msgid "in"
+msgstr "en"
+
+#: plugin.php:1441
+msgid "Delete"
+msgstr "Borrar"
+
+#: plugin.php:1440
+msgid "open"
+msgstr "abrir"
+
+#: plugin.php:1439
+msgid "sub-menu item"
+msgstr "elemento del submenú"
+
+#: plugin.php:1438
+msgid "with this value"
+msgstr "con este valor"
+
+#: plugin.php:1437
+msgid "Rename"
+msgstr "Renombrar"
+
+#: plugin.php:1436
+msgid "from menu"
+msgstr "del menú"
+
+#: plugin.php:1435
+msgid "Remove"
+msgstr "Eliminar"
+
+#: plugin.php:1434 plugin.php:1976 plugin.php:2775
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: plugin.php:1432 plugin.php:1975
+msgid "Colorizer"
+msgstr "Coloreador"
+
+#: plugin.php:1431 plugin.php:1974
+msgid "Admin Menu"
+msgstr "Menú de administración"
+
+#: plugin.php:1430 plugin.php:1973
+msgid "Login Page"
+msgstr "Página de acceso"
+
+#: plugin.php:1427 plugin.php:1970
+msgid "Admin Bar"
+msgstr "Barra de administración"
+
+#: plugin.php:1426 plugin.php:1969 plugin.php:2658
+msgid "General"
+msgstr "General"
+
+#: plugin.php:1425
+msgid "File for import is not selected!"
+msgstr "¡El archivo a importar no está seleccionado!"
+
+#: plugin.php:1135
+msgid "show/hide more..."
+msgstr "mostrar/ocultar más..."
+
+#: plugin.php:1132
+msgid "SUPPORT PAGE"
+msgstr "PÁGINA DE SOPORTE"
+
+#: plugin.php:1132
+msgid "Contact us if nothing above helps. Please do not post errors that are caused by other plugins/themes to our support page. Contact their support instead. If you think that error is somehow related to AGCA plugin, or something unexpected happens, please report that on our"
+msgstr "Contacta con nosotros si nada de lo anterior ayuda. Por favor, no publiques errores provocados por otros plugins/temas en nuestra página de soporte. En su lugar, contacta con su soporte. Si crees que ese error está relacionado de algún modo con el plugin AGCA o ha ocurrido algo inesperado, por favor, informa de ello en nuestro"
+
+#: plugin.php:1132
+msgid "Advanced: Try fixing this issue manually: Navigate to the link above in your browser and open the source of the page (right click -> view page source) and find the line in code where it fails. You should access this file via FTP and try to fix this error on that line."
+msgstr "Avanzado: Intenta corregir manualmente este problema: Navega al enlace anterior en tu navegador, abre el código de la página (clic derecho -> ver código fuente de la página) y encuentra la línea del código que falla. Deberías acceder a este archivo por FTP e intentar corregir este error en esa línea."
+
+#: plugin.php:1132
+msgid "Try activating default WordPress theme instead of your current theme."
+msgstr "Intenta activar un tema WordPress por defecto en vez de tu tema actual."
+
+#: plugin.php:1132
+msgid "If it\\'s obvious that error is thrown from a particular plugin/theme, please report this error to their support."
+msgstr "Si es obvio que el error es debido a un plugin/tema concreto, por favor, informa de este error a su soporte."
+
+#: plugin.php:1132
+msgid "Check \"source\" path of this error. This could be indicator of the plugin/theme that caused the error."
+msgstr "Comprueba la ruta de «origen» de este error. Esto podría ser un indicador del plugin/tema que ha causado el error."
+
+#: plugin.php:1132
+msgid "Try disabling plugins one by one to see if problem can be resolved this way. If so, one of disabled plugins caused this error."
+msgstr "Intenta desactivar los plugins uno por uno para ver si el problema se puede resolver así. Si lo es, uno de los plugins desactivados ha causado este error. "
+
+#: plugin.php:1132
+msgid "Make sure to have everything up to date: WordPress site, plugins and themes."
+msgstr "Asegúrate de tener todo actualizado: WordPress, plugins y temas."
+
+#: plugin.php:1132
+msgid "Possible solutions"
+msgstr "Posibles soluciones"
+
+#: plugin.php:1132
+msgid "This JavaScript error can stop AGCA plugin to work properly. If everything still works, you can ignore this notification."
+msgstr "Este error de JavaScript puede hacer que el plugin AGCA deje de funcionar correctamente. Si todo sigue funcionando, puedes ignorar este aviso."
+
+#: plugin.php:995
+msgid "Log Out"
+msgstr "Salir"
+
+#: plugin.php:697
+msgid "AGCA_Settings"
+msgstr "AGCA_Settings"
+
+#: plugin.php:324
+msgid "There is an error in your custom JS script. Please fix it:"
+msgstr "Ha ocurrido un error en tu script JS personalizado. Por favor, corrígelo:"
+
+#: plugin.php:286
+msgid "Nonce verification failed."
+msgstr "Ha fallado la verificación del nonce."
+
+#: plugin.php:281
+msgid "User can not manage options."
+msgstr "El usuario no puede gestionar las opciones."
+
+#: plugin.php:280
+msgid "User is not logged in."
+msgstr "El usuario no está conectado."
+
+#. translators: 1: User Id 2: Blog Id
+#: plugin.php:270
+msgid "Multi-site: User (%1$s) does not have access to this blog (%2$s)."
+msgstr "Multisitio: El usuario (%1$s) no tiene acceso a este blog (%2$s)."
+
+#: plugin.php:263
+msgid "Multi-site: Current user is not recognized as administrator."
+msgstr "Multisitio: El usuario actual no está reconocido como administrador."
+
+#: plugin.php:260
+msgid "Please try temporary disabling POST verification. Go to Absolutely Glamorous Custom Admin -> Advanced -> Temporary disable POST verification. Do not forget to un-check this option once you are done with customizations."
+msgstr "Por favor, intenta desactivar temporalmente la verificación POST. Ve a «Absolutely Glamorous Custom Admin -> Avanzado -> Desactivar temporalmente la verificación POST». No olvides desmarcar esta opción cuando hayas terminado con las personalizaciones."
+
+#: plugin.php:123 plugin.php:1979
+msgid "Donate"
+msgstr "Donar"
+
+#: plugin.php:122 plugin.php:1433 plugin.php:1977
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: plugin.php:121
+msgid "Support"
+msgstr "Soporte"
+
+#: plugin.php:119
+msgid "Settings"
+msgstr "Ajustes"

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-23T13:16:35+00:00\n"
+"POT-Creation-Date: 2022-04-05T12:11:06+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: neve\n"
@@ -397,7 +397,7 @@ msgid "HTML"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Header.php:558
-#: inc/admin/dashboard/main.php:407
+#: inc/admin/dashboard/main.php:408
 #: inc/core/front_end.php:415
 msgid "Custom Layouts"
 msgstr ""
@@ -408,7 +408,7 @@ msgstr ""
 
 #: header-footer-grid/Core/Components/Abstract_Component.php:499
 #: inc/customizer/options/buttons.php:83
-#: inc/customizer/options/buttons.php:289
+#: inc/customizer/options/buttons.php:290
 msgid "Padding"
 msgstr ""
 
@@ -1037,168 +1037,168 @@ msgid "Enter your license from %1$s purchase history in order to get plugin upda
 msgstr ""
 
 #. translators: s - theme name (Neve).
-#: inc/admin/dashboard/main.php:272
+#: inc/admin/dashboard/main.php:273
 msgid "New theme update for %1$s! Please update to %2$s."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:277
-#: inc/admin/dashboard/main.php:298
+#: inc/admin/dashboard/main.php:278
+#: inc/admin/dashboard/main.php:299
 msgid "Update Now"
 msgstr ""
 
 #. translators: s - Pro plugin name (Neve Pro)
-#: inc/admin/dashboard/main.php:289
+#: inc/admin/dashboard/main.php:290
 msgid "New plugin update for %1$s! Please update to %2$s."
 msgstr ""
 
 #. translators: 1 - Theme Name (Neve), 2 - Plugin Name (Neve Pro)
-#: inc/admin/dashboard/main.php:307
+#: inc/admin/dashboard/main.php:308
 msgid "We recommend that both %1$s and %2$s are updated to the latest version to ensure optimal intercompatibility."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:322
+#: inc/admin/dashboard/main.php:323
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:187
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:240
 msgid "Upload Logo"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:326
+#: inc/admin/dashboard/main.php:327
 msgid "Set Colors"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:330
+#: inc/admin/dashboard/main.php:331
 msgid "Customize Fonts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:334
+#: inc/admin/dashboard/main.php:335
 msgid "Layout Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:338
+#: inc/admin/dashboard/main.php:339
 msgid "Header Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:342
+#: inc/admin/dashboard/main.php:343
 msgid "Blog Layouts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:346
+#: inc/admin/dashboard/main.php:347
 msgid "Footer Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:350
+#: inc/admin/dashboard/main.php:351
 #: inc/customizer/options/layout_sidebar.php:95
 msgid "Content / Sidebar"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:383
+#: inc/admin/dashboard/main.php:384
 msgid "Header/Footer builder"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:384
+#: inc/admin/dashboard/main.php:385
 msgid "Easily build your header and footer by dragging and dropping all the important elements in the real-time WordPress Customizer. More advanced options are available in PRO."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:389
+#: inc/admin/dashboard/main.php:390
 msgid "Page Builder Compatibility"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:390
+#: inc/admin/dashboard/main.php:391
 msgid "Neve is fully compatible with Gutenberg, the new WordPress editor and for all of you page builder fans, Neve has full compatibility with Elementor, Beaver Builder, and all the other popular page builders."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:395
+#: inc/admin/dashboard/main.php:396
 #: inc/core/front_end.php:412
 msgid "Header Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:396
+#: inc/admin/dashboard/main.php:397
 msgid "Take the header builder to a new level with new awesome components: socials, contact, breadcrumbs, language switcher, multiple HTML, sticky and transparent menu, page header builder and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:401
+#: inc/admin/dashboard/main.php:402
 msgid "Page Header Builder"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:402
+#: inc/admin/dashboard/main.php:403
 msgid "The Page Header is the horizontal area that sits directly below the header and contains the page/post title. Easily design an attractive Page Header area using our dedicated builder."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:408
+#: inc/admin/dashboard/main.php:409
 msgid "Powerful Custom Layouts builder which allows you to easily create your own header, footer or custom content on any of the hook locations available in the theme."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:413
+#: inc/admin/dashboard/main.php:414
 #: inc/core/front_end.php:413
 msgid "Blog Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:414
+#: inc/admin/dashboard/main.php:415
 msgid "Give a huge boost to your entire blogging experience with features specially designed for increased user experience."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:414
+#: inc/admin/dashboard/main.php:415
 msgid "Sharing, custom article sorting, comments integrations, number of minutes needed to read an article and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:419
+#: inc/admin/dashboard/main.php:420
 #: inc/core/front_end.php:418
 msgid "Elementor Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:420
+#: inc/admin/dashboard/main.php:421
 #: inc/core/front_end.php:421
 msgid "Leverage the true flexibility of Elementor with powerful addons and templates that you can import with just one click."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:425
+#: inc/admin/dashboard/main.php:426
 #: inc/core/front_end.php:414
 #: assets/apps/dashboard/src/Components/Content/Start.js:148
 msgid "WooCommerce Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:426
+#: inc/admin/dashboard/main.php:427
 #: assets/apps/dashboard/src/Components/Content/Start.js:149
 msgid "Empower your online store with awesome new features, specially designed for a smooth WooCommerce integration."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:426
+#: inc/admin/dashboard/main.php:427
 msgid "Wishlist, quick view, video products, advanced reviews, multiple dedicated layouts and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:431
+#: inc/admin/dashboard/main.php:432
 msgid "LifterLMS Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:432
+#: inc/admin/dashboard/main.php:433
 msgid "Make your LifterLMS pages look stunning with our PRO design options. Specially created to help you set up your online courses with minimum customizations."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:437
+#: inc/admin/dashboard/main.php:438
 msgid "Typekit(Adobe) Fonts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:438
+#: inc/admin/dashboard/main.php:439
 msgid "The module allows for an easy way of enabling new awesome Adobe (previous Typekit) Fonts in Neve's Typography options."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:443
+#: inc/admin/dashboard/main.php:444
 msgid "White Label"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:444
+#: inc/admin/dashboard/main.php:445
 msgid "For any developer or agency out there building websites for their own clients, we've made it easy to present the theme as your own."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:449
+#: inc/admin/dashboard/main.php:450
 msgid "Scroll To Top"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:450
+#: inc/admin/dashboard/main.php:451
 msgid "Simple but effective module to help you navigate back to the top of the really long pages."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:455
+#: inc/admin/dashboard/main.php:456
 msgid "See all PRO features"
 msgstr ""
 
@@ -1583,7 +1583,7 @@ msgstr ""
 
 #: inc/customizer/options/base_layout_single.php:72
 #: inc/customizer/options/layout_sidebar.php:49
-#: inc/customizer/options/typography.php:317
+#: inc/customizer/options/typography.php:339
 msgid "Single Post"
 msgstr ""
 
@@ -1690,7 +1690,7 @@ msgid "Buttons"
 msgstr ""
 
 #: inc/customizer/options/buttons.php:103
-#: inc/customizer/options/buttons.php:311
+#: inc/customizer/options/buttons.php:312
 msgid "Button Text"
 msgstr ""
 
@@ -2106,33 +2106,33 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
-#: inc/customizer/options/typography.php:157
+#: inc/customizer/options/typography.php:179
 msgid "Fallback Font"
 msgstr ""
 
-#: inc/customizer/options/typography.php:164
+#: inc/customizer/options/typography.php:186
 msgid "Learn more about fallback fonts"
 msgstr ""
 
-#: inc/customizer/options/typography.php:297
-#: inc/customizer/options/typography.php:316
+#: inc/customizer/options/typography.php:319
+#: inc/customizer/options/typography.php:338
 msgid "Post title"
 msgstr ""
 
-#: inc/customizer/options/typography.php:298
+#: inc/customizer/options/typography.php:320
 msgid "Blog Archive"
 msgstr ""
 
-#: inc/customizer/options/typography.php:304
+#: inc/customizer/options/typography.php:326
 msgid "Post excerpt"
 msgstr ""
 
-#: inc/customizer/options/typography.php:310
-#: inc/customizer/options/typography.php:323
+#: inc/customizer/options/typography.php:332
+#: inc/customizer/options/typography.php:345
 msgid "Post meta"
 msgstr ""
 
-#: inc/customizer/options/typography.php:329
+#: inc/customizer/options/typography.php:351
 msgid "Comments reply title"
 msgstr ""
 
@@ -2264,7 +2264,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/views/pluggable/pagination.php:260
-#: inc/views/template_parts.php:444
+#: inc/views/template_parts.php:448
 msgid "Pages:"
 msgstr ""
 
@@ -2280,7 +2280,7 @@ msgstr ""
 msgid "Out of stock"
 msgstr ""
 
-#: inc/views/template_parts.php:375
+#: inc/views/template_parts.php:379
 msgid "Read More"
 msgstr ""
 
@@ -2352,6 +2352,10 @@ msgstr ""
 
 #: assets/apps/components/src/Controls/MultiSelect.js:18
 msgid "Remove Item"
+msgstr ""
+
+#: assets/apps/components/src/Controls/NumberControl.js:30
+msgid "No unit"
 msgstr ""
 
 #: assets/apps/components/src/Controls/RadioIcons.js:85
@@ -2624,11 +2628,11 @@ msgstr ""
 msgid "Weight"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/typeface/Typeface.js:213
+#: assets/apps/customizer-controls/src/typeface/Typeface.js:214
 msgid "Line Height"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/typeface/Typeface.js:251
+#: assets/apps/customizer-controls/src/typeface/Typeface.js:256
 msgid "Letter Spacing"
 msgstr ""
 

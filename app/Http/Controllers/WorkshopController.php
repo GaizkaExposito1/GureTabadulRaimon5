@@ -22,6 +22,7 @@ class WorkshopController extends Controller
     public function index()
     {
         //saca todos los talleres y la gente apuntada a estos
+        $talleresTOT= Workshop::whereDate('date','>', Carbon::today())->orderBy('date')->get();
         $talleres = Workshop::whereDate('date','>', Carbon::today())->orderBy('date')->get();
         $apuntados=[];
         foreach ($talleres as $t) {
@@ -35,7 +36,7 @@ class WorkshopController extends Controller
         else{
             $cursosDeUser=null;
         }
-        return view('tabadul.talleres',['talleres'=> $talleres,'apuntados'=>$apuntados,'cursosDeUser'=>$cursosDeUser]);
+        return view('tabadul.talleres',['talleresTOT'=>$talleresTOT,'talleres'=> $talleres,'apuntados'=>$apuntados,'cursosDeUser'=>$cursosDeUser]);
     }
 
     /**
@@ -57,16 +58,105 @@ class WorkshopController extends Controller
     {
         //saca todos los talleres y la gente apuntada a estos
         $talleres = Workshop::whereDate('date','>', Carbon::today())->orderBy('date')->get();
-        $langs=Language::all();
-        $nowLang=Language::Where('lang', \App::getLocale())->first();
+        $talleresTOT = Workshop::whereDate('date','>', Carbon::today())->orderBy('date')->get();
+        $apuntados=[];
         $apuntados=[];
         foreach ($talleres as $t) {
             $ap=WorkshopUser::Where('workshop_id',$t->id)->get();
             $c=count($ap);
             $apuntados[]=$c;
         }
-        return view('tabadul.talleres',['talleres'=> $talleres,'apuntados'=>$apuntados,'languages'=> $langs,'nowLang'=>$nowLang]);
+        if(Auth::check()){
+            $cursosDeUser=WorkshopUser::Where('workshop_id',Auth::user()->id)->get();
+        }
+        else{
+            $cursosDeUser=null;
+        }
+        return view('tabadul.talleres',['talleresTOT'=>$talleresTOT,'talleres'=> $talleres,'apuntados'=>$apuntados,'cursosDeUser'=>$cursosDeUser]);
     }
+
+
+    public function filtrar(Request $request){
+        $data=$request->all();
+        $filtro=$data['filtro'];
+        $dato=$data['dato'];
+        $talleresTOT= Workshop::whereDate('date','>', Carbon::today())->orderBy('date')->get();
+    //devolver varios talleres dependiendo del taller id
+        if($filtro=="taller_id"){
+        $taller=Workshop::where('id',$dato)->get();
+        if (is_null($taller)){
+        \Session::flash('tipoMensaje','danger');
+        \Session::flash('mensaje','No se han encontrado talleres para ese filtro');
+        return \Redirect::back();
+        }
+        else
+        {
+            $apuntados=[];
+            foreach ($taller as $t) {
+                $ap=WorkshopUser::Where('workshop_id',$t->id)->get();
+                $c=count($ap);
+                $apuntados[]=$c;
+            }
+            if(Auth::check()){
+                $cursosDeUser=WorkshopUser::Where('workshop_id',Auth::user()->id)->get();
+            }
+            else{
+                $cursosDeUser=null;
+            }
+            return view('tabadul.talleres',['talleresTOT'=>$talleresTOT,'talleres'=> $taller,'apuntados'=>$apuntados,'cursosDeUser'=>$cursosDeUser]);
+        }
+    }
+    elseif ($filtro=="fecha") {
+        $taller=Workshop::where('date',$dato)->get();
+        if (is_null($taller)){
+        \Session::flash('tipoMensaje','danger');
+        \Session::flash('mensaje','No se han encontrado talleres para ese filtro');
+        return \Redirect::back();
+        }
+        else
+        {
+            $apuntados=[];
+            foreach ($taller as $t) {
+                $ap=WorkshopUser::Where('workshop_id',$t->id)->get();
+                $c=count($ap);
+                $apuntados[]=$c;
+            }
+            if(Auth::check()){
+                $cursosDeUser=WorkshopUser::Where('workshop_id',Auth::user()->id)->get();
+            }
+            else{
+                $cursosDeUser=null;
+            }
+            return view('tabadul.talleres',['talleresTOT'=>$talleresTOT,'talleres'=> $taller,'apuntados'=>$apuntados,'cursosDeUser'=>$cursosDeUser]);
+        }
+    }
+    elseif ($filtro=="name") {
+        //se consguie el usuario con ese nombre
+        $taller=Workshop::Where('name', 'LIKE', '%'.$dato.'%')->get();
+        if (is_null($taller)){
+            \Session::flash('tipoMensaje','danger');
+            \Session::flash('mensaje','No se han encontrado el taller');
+            return \Redirect::back();
+            }
+        else{
+            $apuntados=[];
+            foreach ($taller as $t) {
+                $ap=WorkshopUser::Where('workshop_id',$t->id)->get();
+                $c=count($ap);
+                $apuntados[]=$c;
+            }
+            if(Auth::check()){
+                $cursosDeUser=WorkshopUser::Where('workshop_id',Auth::user()->id)->get();
+            }
+            else{
+                $cursosDeUser=null;
+            }
+            return view('tabadul.talleres',['talleresTOT'=>$talleresTOT,'talleres'=> $taller,'apuntados'=>$apuntados,'cursosDeUser'=>$cursosDeUser]);
+    }
+    }
+}
+
+
 
     /**
      * Display the specified resource.

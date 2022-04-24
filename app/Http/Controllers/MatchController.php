@@ -44,13 +44,6 @@ class MatchController extends Controller
      */
     public function store($userid)
     {
-        
-        //Buscar matches del usuario
-        // $pUser=DB::table('users')
-        // ->join('likeUsers', 'users.id', '=', 'contacts.user_id')
-        // ->join('orders', 'users.id', '=', 'orders.user_id')
-        // ->select('users.*', 'contacts.phone', 'orders.price')
-        // ->get();
         $GustosUser=LikeUser::Where('user_id',$userid)->get();
         $matchesguardadosOBJ=Match::all();
         $matches=[];
@@ -58,7 +51,9 @@ class MatchController extends Controller
             $matches[]=LikeUser::Where('like_id',$gusto->id)->get();
         }
         if($matches==null){
-            dd("no matches chuclaste, inserte aki sms de aviso xd");
+            $aviso=new noMatchesController();
+            $username=User::find($userid)->name;
+            $aviso->store($username);
         }else{
         foreach ($matches as $k=> $match) {
             //get user from user id
@@ -77,7 +72,9 @@ class MatchController extends Controller
                 }
             }
         if($matches==null){
-            dd("no matches chuclaste, inserte aki sms de aviso xd");
+            $aviso=new noMatchesController();
+            $username=User::find($userid)->name;
+            $aviso->store($username);
         }else{
             
             foreach ($matches as $match) {
@@ -154,15 +151,17 @@ class MatchController extends Controller
         }
         elseif ($filtro=="name") {
             //se consguie el usuario con ese nombre
-            $usuario=User::Where('name',$dato)->get();
-            if (is_null($usuario)){
+            $usuariosEncont=User::Where('name', 'LIKE', '%'.$dato.'%')->get();
+            if (is_null($usuariosEncont)){
                 \Session::flash('tipoMensaje','danger');
                 \Session::flash('mensaje','No se han encontrado el usuario');
                 return \Redirect::back();
                 }
+                $match=null;
+            foreach ($usuariosEncont as $usu) {    
             //se consiguen todos los matche sen los k este ese usuario
-            $match1=Match::Where('user1_id',$usuario->id)->get();
-            $match2=Match::Where('user2_id',$usuario->id)->get();
+            $match1=Match::Where('user1_id',$usu->id)->get();
+            $match2=Match::Where('user2_id',$usu->id)->get();
             $ARmatch1=[];$ARmatch2=[];
             foreach ($match1 as $m) {
                 $ARmatch1[]=$m;
@@ -171,7 +170,13 @@ class MatchController extends Controller
                 $ARmatch2[]=$m;
             }
             //se mergean los array
-            $match=array_merge($ARmatch1,$ARmatch2);
+            if(is_null($match)){
+                $match=array_merge($ARmatch1,$ARmatch2);
+            }else{
+                $match= array_merge($match, array_merge($ARmatch1,$ARmatch2));
+            }
+            $match=array_unique($match,SORT_REGULAR );
+            }
             if (is_null($match)){
             \Session::flash('tipoMensaje','danger');
             \Session::flash('mensaje','No se han encontrado matches para ese usuario');

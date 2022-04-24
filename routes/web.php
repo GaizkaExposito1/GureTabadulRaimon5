@@ -59,6 +59,7 @@ Route::get('/servicios', [ServiceController::class,'index'])->name('servicios');
 //Talleres
 Route::resource('talleres',WorkshopController::class);
 Route::resource('workshopUser',WorkshopUserController::class);
+Route::post('/talleresFilter', [WorkshopController::class,'filtrar'])->name('filtrarTalleres');
 //Chat
 Route::resource('chat',ChatController::class);
 Route::resource('mensaje',MessageController::class);

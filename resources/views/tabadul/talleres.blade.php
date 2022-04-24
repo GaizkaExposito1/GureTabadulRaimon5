@@ -11,37 +11,35 @@
 <!-- filtros -->
 <div id="selectores" class="row selects">
         <div class=" justify-content-between text-center col-md-4 col-12">
-            <form action="{{route('filtrar')}}" method="post">
+            <form action="{{route('filtrarTalleres')}}" method="post">
                 @csrf
                 <select name="dato" id="selectUsuarios">
                     <option value="value1" selected disabled>Todos los talleres</option>
-                    @foreach ($talleres as $taller)
+                    @foreach ($talleresTOT as $taller)
                         <option value="{{$taller->id}}">{{$taller->name}}</option>
                     @endforeach
                 </select>
                 {{-- end select --}}
-                <input class="form-check-input" name="filtro" type="hidden" value="user_id" id="flexCheckDefault">
+                <input class="form-check-input" name="filtro" type="hidden" value="taller_id" id="flexCheckDefault">
                 <button type="submit" class="Boton">Buscar</button>
             </form>
             {{-- end form --}}
         </div>
         {{-- end justify-content --}}
     <div class=" justify-content-between text-center col-md-4 col-12">
-        <form action="{{route('filtrar')}}" method="post">
+        <form action="{{route('filtrarTalleres')}}" method="post">
             @csrf
 
-            <label for="startDate">Desde</label>
-            <input id="startDate" class="form-control" type="date" />
-
-            <label for="endDate">Hasta</label>
-            <input id="endDate" class="form-control" type="date" />
-
+            <label for="startDate">Fecha del Taller</label>
+            <input id="startDate" class="form-control" type="date" name="dato"/>
+            <input class="form-check-input" name="filtro" type="hidden" value="fecha" id="flexCheckDefault">
+            <button type="submit" class="Boton">Buscar</button>
         </form>
         {{-- end form --}}
     </div>
     {{-- end justify-content --}}
     <div class="justify-content-between text-center col-md-4 col-12">
-        <form action="{{route('filtrar')}}" method="post">
+        <form action="{{route('filtrarTalleres')}}" method="post">
         @csrf
             <input type="search" placeholder="Search.." name="dato">
             <input class="form-check-input" name="filtro" type="hidden" value="name" id="flexCheckDefault">

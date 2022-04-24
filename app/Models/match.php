@@ -11,11 +11,11 @@ class Match extends Model
 
     //$m->user1()-> .. . .
     public function user1(){
-        $user=User::find($this->user1_id)->get();
+        $user=User::find($this->user1_id);
         return $user;
     }
     public function user2(){
-        $user=User::find($this->user2_id)->get();
+        $user=User::find($this->user2_id);
         return $user;
     }
 }

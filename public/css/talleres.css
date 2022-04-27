@@ -1,6 +1,6 @@
  #title{
     font-family: 'Permanent Marker', cursive;
-    color: #0077B6;
+    color: #000;
     text-align: center;
     margin-bottom: 4%;
 }
@@ -48,7 +48,7 @@
 .grid-item .content{
     position: absolute;
     bottom: 0px;
-    height: 70px;
+    height: 50px;
     background-color: #EEE8F6 !important;
     transition: 0.5s;
     overflow: hidden;
@@ -100,6 +100,41 @@
     margin-left: 15%;
     text-align: center
 }
+/* .buscador{
+    position: absolute;
+    padding: 2px;
+} */
+.buscador{
+    margin-top: 2%;
+      
+}
+
+.Boton{
+    border: 2px solid #0077B6;
+    background-color: transparent;
+    border-radius: 13px;
+    box-sizing: border-box;
+    color: #0077B6;
+    height: 12%;
+    text-align: center;
+    
+}
+
+#searchDato{
+   margin-top: 6%;
+
+}
+.BotonBuscar{
+    border: 2px solid #0077B6;
+    background-color: transparent;
+    border-radius: 13px;
+    box-sizing: border-box;
+    color: #0077B6;
+    height: 12%;
+    text-align: center;
+    margin-top: 2%;
+
+}
 
 
 /* ------------------------------------------------------------Modal--------------------------------------------------*/
@@ -111,7 +146,7 @@
 .modal-title{
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    color: #0077B6;
+    color: #000;
 }
 
  #btn-apuntarse{
@@ -142,11 +177,6 @@
 #lblBtnlogin a:hover{
     background-color: #B7E4C7;
 }
-.modal-title{
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    color: #0077B6;
 
-}
 
 

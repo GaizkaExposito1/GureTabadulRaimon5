@@ -10,7 +10,7 @@
 <h1 id="title">{{__("language.work-courses")}}</h1>
 <!-- filtros -->
 <div id="selectores" class="row selects">
-        <div class=" justify-content-between text-center col-md-4 col-12">
+        <div class="buscador justify-content-between text-center col-md-4 col-12">
             <form action="{{route('filtrarTalleres')}}" method="post">
                 @csrf
                 <select name="dato" id="selectUsuarios">
@@ -33,7 +33,7 @@
             <label for="startDate">Fecha del Taller</label>
             <input id="startDate" class="form-control" type="date" name="dato"/>
             <input class="form-check-input" name="filtro" type="hidden" value="fecha" id="flexCheckDefault">
-            <button type="submit" class="Boton">Buscar</button>
+            <button type="submit" class="BotonBuscar">Buscar</button>
         </form>
         {{-- end form --}}
     </div>
@@ -41,7 +41,7 @@
     <div class="justify-content-between text-center col-md-4 col-12">
         <form action="{{route('filtrarTalleres')}}" method="post">
         @csrf
-            <input type="search" placeholder="Search.." name="dato">
+            <input id="searchDato" type="search" placeholder="Buscar..." name="dato">
             <input class="form-check-input" name="filtro" type="hidden" value="name" id="flexCheckDefault">
             <button type="submit"><i class="fas fa-search"></i></button>
             @csrf
@@ -118,11 +118,11 @@
 
                                 <!-- <div class="modal-footer"> -->
                                 <div class="modal-footer">
-                                    <button id="btn-apuntarse" class="btn">{{__("language.sign-up-2")}}</button>
                                     <div id="lblBtnlogin">
                                         <label>{{__("language.user-yes-no")}}</label>
                                         <a href="{{route('login')}}"  class="btn-login">{{__("language.login")}}</a>
                                     </div>
+                                    <button id="btn-apuntarse" class="btn">{{__("language.sign-up-2")}}</button>
                                     {{-- end lblBtnlogin --}}
                                 </div>
                         {{-- end modal-footer --}}

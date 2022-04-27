@@ -1,0 +1,6 @@
+2022-04-08T19:35:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\UniServerZ\www\GureTabadulRaimon5\public\shop\wp-includes\PHPMailer\SMTP.php on line 1456
+
+2022-04-08T19:37:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\UniServerZ\www\GureTabadulRaimon5\public\shop\wp-includes\class-requests.php on line 381
+
+2022-04-08T19:44:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\UniServerZ\www\GureTabadulRaimon5\public\shop\wp-content\plugins\beaver-builder-lite-version\modules\icon\icon.php on line 63
+

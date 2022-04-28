@@ -9,22 +9,19 @@
 @section('contenido')
 
 <!-- aqui ira la animacion  -->
-<div id="pagPrincipal">
-<img class="imgSec" src="assets/img/tituloGureTabadul.png" alt="imgIzquierda" >
-
-{{-- <section id="anima">
-    <div class="contenedor">
+<section id="anima">
+    <div class="contenedorCubo">
         <div class="cubo">
-            <div class="cara" id="uno"><img class="carai" src="assets/img/1.png"></div>
-            <div class="cara" id="seis"><img class="carai"  src="assets/img/2.png"></div>
+            <div class="cara" id="uno"><img class="carai" src="assets/img/CaraI1.png"></div>
+            <div class="cara" id="seis"><img class="carai"  src="assets/img/CaraI2.png"></div>
         </div>
         <div class="cubo">
-            <div class="cara" id="uno"><img  class="carad" src="assets/img/3.png"></div>
-            <div class="cara" id="seis"><img class="carad"  src="assets/img/4.png"></div>
+            <div class="cara" id="uno"><img  class="carad" src="assets/img/caraD1.png"></div>
+            <div class="cara" id="seis"><img class="carad"  src="assets/img/caraD2.png"></div>
         </div>
     </div>
-</section> --}}
-</div>
+</section>
+
 
 {{-- fin pagPrincipal --}}
 <div id="btns" class="row ">

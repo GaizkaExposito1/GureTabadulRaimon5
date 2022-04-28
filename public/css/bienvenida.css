@@ -19,22 +19,26 @@
 }
 
 /* Animacion */
+
 #anima {
     margin: 0;
     display: flex;
     min-height: 100vh;
 }
-.contenedor {
+.contenedorCubo {
     margin: auto;
-    perspective: 500px;
+    perspective: 700px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 .cubo {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     position: relative;
     transform-style: preserve-3d;
+}
+.cubo img{
+    width: 47%;
 }
 .cara {
     position: absolute;
@@ -58,13 +62,11 @@
 .cubo{
     transform: rotate(0deg);
     transition-duration: 1s;
-    /* transition-timing-function: linear; */
+    transition-timing-function: linear;
     animation: girar2 5s ease;
-    animation-iteration-count: 1;
 }
 .cubo:hover {
     animation: girar 5s ease;
-    animation-iteration-count: 1;
 }
 
 @keyframes girar {
@@ -83,13 +85,12 @@
 }
 @keyframes girar2 {
     0% {
-        transform: rotateX(90deg);
-    }
-    100% {
         transform: rotateX(0deg);
     }
+    100% {
+        transform: rotateX(90deg);
+    }
 }
-
 
 
 /* fin de la animacion */

@@ -43,7 +43,7 @@
         @csrf
             <input id="searchDato" type="search" placeholder="Buscar..." name="dato">
             <input class="form-check-input" name="filtro" type="hidden" value="name" id="flexCheckDefault">
-            <button type="submit"><i class="fas fa-search"></i></button>
+            <button id="iconobuscador" type="submit"><i class="fas fa-search"></i></button>
             @csrf
         </form>
         {{-- end form --}}
@@ -53,7 +53,7 @@
   {{-- end selectores --}}
 <!--listado talleres-->
     <div class="grid-container">
-        <!-- se sacan todos los talleres y se comprueban que las plazas en estos sean mayores que los apuntados-->
+        <!-- se sacan todos los talleres y se comprueban que las plazas en estos sean mayores que los apuntados -->
         @foreach ($talleres as $i=>$taller)
         @if($apuntados[$i]<$taller->plazas)
         <div class="grid-item">

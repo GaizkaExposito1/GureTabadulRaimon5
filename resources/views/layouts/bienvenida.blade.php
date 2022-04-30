@@ -9,7 +9,7 @@
 @section('contenido')
 
 <!-- aqui ira la animacion  -->
-<section id="anima">
+{{-- <section id="anima">
     <div class="contenedorCubo">
         <div class="cubo">
             <div class="cara" id="uno"><img class="carai" src="assets/img/CaraI1.png"></div>
@@ -20,7 +20,7 @@
             <div class="cara" id="seis"><img class="carad"  src="assets/img/caraD2.png"></div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 {{-- fin pagPrincipal --}}

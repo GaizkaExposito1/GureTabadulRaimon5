@@ -100,10 +100,17 @@
     margin-left: 15%;
     text-align: center
 }
-/* .buscador{
-    position: absolute;
-    padding: 2px;
-} */
+
+#iconobuscador{
+
+    border: 2px solid #0077B6;
+    background-color: transparent;
+    border-radius: 13px;
+    box-sizing: border-box;
+    color: #0077B6;
+    height: 12%;
+    text-align: center;
+}
 .buscador{
     margin-top: 2%;
       

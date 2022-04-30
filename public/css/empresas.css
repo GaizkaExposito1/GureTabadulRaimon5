@@ -1,13 +1,12 @@
 /*---------mobile first-----------*/
-
-body{
+ body{
     background-image: linear-gradient(#B7E4C7 15%, white);
     background-repeat: no-repeat;
 }
 
 h1{
     font-family: 'Permanent Marker', cursive;
-    color: #0077B6;
+    color: black;
     text-align: center;
     margin-bottom: 2%;
 }
@@ -40,7 +39,7 @@ h1{
     background-color: transparent;
     border-color: #0077B6;
     color: #0077B6;
-    width: 123px;
+    width: 123px; 
     height: 35px;
     top: 787px;
     display: inline;
@@ -54,7 +53,7 @@ h1{
     text-align: center;
     color: #0077B6;
     background-color: transparent;
-    border: 2px solid #0077B6;
+    /* border: 2px solid #0077B6; */
     border-radius: 12px;
     padding: 1%;
     font-family: 'Nova Round', cursive;
@@ -64,6 +63,10 @@ h1{
 .promocionar-empresas:hover{
     background-color: #B7E4C7;
 }
+#resize{
+    margin-top: 5%;
+    width: 80%;
+} 
 
 
 
